@@ -5,7 +5,7 @@ long_description = (Path(__file__).parent / "README.md").read_text('utf-8').spli
 
 setup(
     name="manga-ocr-abang",
-    version='0.1.8',
+    version='0.1.9',
     description="OCR for Japanese manga",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -33,7 +33,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "manga_ocr=manga_ocr.__main__:main",
+            "manga_ocr_abang=manga_ocr.__main__:main",
         ]
     },
 )
