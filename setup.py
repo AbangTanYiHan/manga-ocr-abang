@@ -16,7 +16,7 @@ setup(
     classifiers=[
         "Programming Language :: Python :: 3",
     ],
-    packages=['manga_ocr'],
+    packages=['manga_ocr_abang'],
     include_package_data=True,
     install_requires=[
         "fire",
@@ -33,7 +33,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "manga_ocr_abang=manga_ocr.__main__:main",
+            "manga_ocr_abang=manga_ocr_abang.__main__:main",
         ]
     },
 )
