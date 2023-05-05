@@ -3,7 +3,7 @@ from pathlib import Path
 
 from tqdm import tqdm
 
-from manga_ocr_abang import MangaOcr
+from manga_ocr import MangaOcr
 
 TEST_DATA_ROOT = Path(__file__).parent / 'data'
 

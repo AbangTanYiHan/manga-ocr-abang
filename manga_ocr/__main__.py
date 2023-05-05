@@ -1,6 +1,6 @@
 import fire
 
-from manga_ocr_abang.run import run
+from manga_ocr.run import run
 
 
 def main():

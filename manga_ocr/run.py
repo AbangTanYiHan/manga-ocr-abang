@@ -9,7 +9,7 @@ from PIL import Image
 from PIL import UnidentifiedImageError
 from loguru import logger
 
-from manga_ocr_abang import MangaOcr
+from manga_ocr import MangaOcr
 
 
 def are_images_identical(img1, img2):

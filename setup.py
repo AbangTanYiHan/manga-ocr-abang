@@ -5,18 +5,18 @@ long_description = (Path(__file__).parent / "README.md").read_text('utf-8').spli
 
 setup(
     name="manga-ocr-abang",
-    version='0.1.9',
+    version='0.2.0',
     description="OCR for Japanese manga",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/AbangTanYiHan/manga-ocr-abang",
-    author="Maciej Budyś",
+    author="Abang",
     author_email="shinichiconan1997@gmail.com",
     license="Apache License 2.0",
     classifiers=[
         "Programming Language :: Python :: 3",
     ],
-    packages=['manga_ocr_abang'],
+    packages=['manga_ocr'],
     include_package_data=True,
     install_requires=[
         "fire",
@@ -33,7 +33,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "manga_ocr_abang=manga_ocr_abang.__main__:main",
+            "manga_ocr=manga_ocr.__main__:main",
         ]
     },
 )
